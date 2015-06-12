@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58398C1D1B2B0C3B007367FA /* rocket3.png in Resources */ = {isa = PBXBuildFile; fileRef = 58398C1C1B2B0C3B007367FA /* rocket3.png */; };
+		5857B5E71AD99A40006F4717 /* rocket2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5857B5E51AD99A40006F4717 /* rocket2.png */; };
+		5857B5E81AD99A40006F4717 /* rocket2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5857B5E51AD99A40006F4717 /* rocket2.png */; };
+		5857B5E91AD99A40006F4717 /* spaceship.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5857B5E61AD99A40006F4717 /* spaceship.jpeg */; };
+		5857B5EA1AD99A40006F4717 /* spaceship.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5857B5E61AD99A40006F4717 /* spaceship.jpeg */; };
+		586E78911AD7FEF20043632E /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 586E788D1AD7FEF20043632E /* rocket.png */; };
+		586E78921AD7FEF20043632E /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 586E788D1AD7FEF20043632E /* rocket.png */; };
+		586E78931AD7FEF20043632E /* international-space-station.png in Resources */ = {isa = PBXBuildFile; fileRef = 586E788E1AD7FEF20043632E /* international-space-station.png */; };
+		586E78941AD7FEF20043632E /* international-space-station.png in Resources */ = {isa = PBXBuildFile; fileRef = 586E788E1AD7FEF20043632E /* international-space-station.png */; };
+		586E78951AD7FEF20043632E /* space-station.png in Resources */ = {isa = PBXBuildFile; fileRef = 586E788F1AD7FEF20043632E /* space-station.png */; };
+		586E78961AD7FEF20043632E /* space-station.png in Resources */ = {isa = PBXBuildFile; fileRef = 586E788F1AD7FEF20043632E /* space-station.png */; };
+		586E78971AD7FEF20043632E /* iss-silhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = 586E78901AD7FEF20043632E /* iss-silhouette.png */; };
+		586E78981AD7FEF20043632E /* iss-silhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = 586E78901AD7FEF20043632E /* iss-silhouette.png */; };
+		589075521AFFF55500BEDC0A /* CameraIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 589075511AFFF55500BEDC0A /* CameraIcon.png */; };
+		589075531AFFF55500BEDC0A /* CameraIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 589075511AFFF55500BEDC0A /* CameraIcon.png */; };
+		589075551AFFF81800BEDC0A /* ISSPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589075541AFFF81800BEDC0A /* ISSPhotoViewController.swift */; };
+		5892885C1AF80AB3009F77FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892885B1AF80AB3009F77FC /* Constants.swift */; };
+		5892885D1AF80AB3009F77FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5892885B1AF80AB3009F77FC /* Constants.swift */; };
+		58E70E851AD7438D0075E2C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E70E841AD7438D0075E2C5 /* AppDelegate.swift */; };
+		58E70E881AD7438D0075E2C5 /* iss_tracker_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58E70E861AD7438D0075E2C5 /* iss_tracker_ios.xcdatamodeld */; };
+		58E70E8A1AD7438D0075E2C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E70E891AD7438D0075E2C5 /* ViewController.swift */; };
+		58E70E8D1AD7438D0075E2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E70E8B1AD7438D0075E2C5 /* Main.storyboard */; };
+		58E70E8F1AD7438D0075E2C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E70E8E1AD7438D0075E2C5 /* Images.xcassets */; };
+		58E70E921AD7438D0075E2C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58E70E901AD7438D0075E2C5 /* LaunchScreen.xib */; };
+		58E70E9E1AD7438D0075E2C5 /* iss_tracker_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E70E9D1AD7438D0075E2C5 /* iss_tracker_iosTests.swift */; };
+		58EA97D11ADEAA15009CA031 /* exhaust.png in Resources */ = {isa = PBXBuildFile; fileRef = 58EA97D01ADEAA15009CA031 /* exhaust.png */; };
+		58EA97D21ADEAA15009CA031 /* exhaust.png in Resources */ = {isa = PBXBuildFile; fileRef = 58EA97D01ADEAA15009CA031 /* exhaust.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58E70E981AD7438D0075E2C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58E70E771AD7438D0075E2C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58E70E7E1AD7438D0075E2C5;
+			remoteInfo = "iss-tracker-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58398C1C1B2B0C3B007367FA /* rocket3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket3.png; sourceTree = "<group>"; };
+		5857B5E51AD99A40006F4717 /* rocket2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket2.png; sourceTree = "<group>"; };
+		5857B5E61AD99A40006F4717 /* spaceship.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spaceship.jpeg; sourceTree = "<group>"; };
+		586E788D1AD7FEF20043632E /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		586E788E1AD7FEF20043632E /* international-space-station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "international-space-station.png"; sourceTree = "<group>"; };
+		586E788F1AD7FEF20043632E /* space-station.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "space-station.png"; sourceTree = "<group>"; };
+		586E78901AD7FEF20043632E /* iss-silhouette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iss-silhouette.png"; sourceTree = "<group>"; };
+		589075511AFFF55500BEDC0A /* CameraIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraIcon.png; sourceTree = "<group>"; };
+		589075541AFFF81800BEDC0A /* ISSPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSPhotoViewController.swift; sourceTree = "<group>"; };
+		5892885B1AF80AB3009F77FC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		58E70E7F1AD7438D0075E2C5 /* iss-tracker-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iss-tracker-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E70E831AD7438D0075E2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E70E841AD7438D0075E2C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58E70E871AD7438D0075E2C5 /* iss_tracker_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iss_tracker_ios.xcdatamodel; sourceTree = "<group>"; };
+		58E70E891AD7438D0075E2C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58E70E8C1AD7438D0075E2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58E70E8E1AD7438D0075E2C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		58E70E911AD7438D0075E2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		58E70E971AD7438D0075E2C5 /* iss-tracker-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iss-tracker-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E70E9C1AD7438D0075E2C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E70E9D1AD7438D0075E2C5 /* iss_tracker_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iss_tracker_iosTests.swift; sourceTree = "<group>"; };
+		58EA97D01ADEAA15009CA031 /* exhaust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exhaust.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58E70E7C1AD7438D0075E2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E70E941AD7438D0075E2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586E788C1AD7FEAE0043632E /* ModifiableImages */ = {
+			isa = PBXGroup;
+			children = (
+				58398C1C1B2B0C3B007367FA /* rocket3.png */,
+				589075511AFFF55500BEDC0A /* CameraIcon.png */,
+				58EA97D01ADEAA15009CA031 /* exhaust.png */,
+				5857B5E51AD99A40006F4717 /* rocket2.png */,
+				5857B5E61AD99A40006F4717 /* spaceship.jpeg */,
+				586E788D1AD7FEF20043632E /* rocket.png */,
+				586E788E1AD7FEF20043632E /* international-space-station.png */,
+				586E788F1AD7FEF20043632E /* space-station.png */,
+				586E78901AD7FEF20043632E /* iss-silhouette.png */,
+			);
+			name = ModifiableImages;
+			sourceTree = "<group>";
+		};
+		58E70E761AD7438D0075E2C5 = {
+			isa = PBXGroup;
+			children = (
+				58E70E811AD7438D0075E2C5 /* iss-tracker-ios */,
+				58E70E9A1AD7438D0075E2C5 /* iss-tracker-iosTests */,
+				58E70E801AD7438D0075E2C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58E70E801AD7438D0075E2C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58E70E7F1AD7438D0075E2C5 /* iss-tracker-ios.app */,
+				58E70E971AD7438D0075E2C5 /* iss-tracker-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58E70E811AD7438D0075E2C5 /* iss-tracker-ios */ = {
+			isa = PBXGroup;
+			children = (
+				58E70E841AD7438D0075E2C5 /* AppDelegate.swift */,
+				58E70E891AD7438D0075E2C5 /* ViewController.swift */,
+				589075541AFFF81800BEDC0A /* ISSPhotoViewController.swift */,
+				58E70E8B1AD7438D0075E2C5 /* Main.storyboard */,
+				58E70E8E1AD7438D0075E2C5 /* Images.xcassets */,
+				58E70E901AD7438D0075E2C5 /* LaunchScreen.xib */,
+				58E70E861AD7438D0075E2C5 /* iss_tracker_ios.xcdatamodeld */,
+				58E70E821AD7438D0075E2C5 /* Supporting Files */,
+				5892885B1AF80AB3009F77FC /* Constants.swift */,
+			);
+			path = "iss-tracker-ios";
+			sourceTree = "<group>";
+		};
+		58E70E821AD7438D0075E2C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				586E788C1AD7FEAE0043632E /* ModifiableImages */,
+				58E70E831AD7438D0075E2C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58E70E9A1AD7438D0075E2C5 /* iss-tracker-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				58E70E9D1AD7438D0075E2C5 /* iss_tracker_iosTests.swift */,
+				58E70E9B1AD7438D0075E2C5 /* Supporting Files */,
+			);
+			path = "iss-tracker-iosTests";
+			sourceTree = "<group>";
+		};
+		58E70E9B1AD7438D0075E2C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58E70E9C1AD7438D0075E2C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58E70E7E1AD7438D0075E2C5 /* iss-tracker-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58E70EA11AD7438D0075E2C5 /* Build configuration list for PBXNativeTarget "iss-tracker-ios" */;
+			buildPhases = (
+				58E70E7B1AD7438D0075E2C5 /* Sources */,
+				58E70E7C1AD7438D0075E2C5 /* Frameworks */,
+				58E70E7D1AD7438D0075E2C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iss-tracker-ios";
+			productName = "iss-tracker-ios";
+			productReference = 58E70E7F1AD7438D0075E2C5 /* iss-tracker-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58E70E961AD7438D0075E2C5 /* iss-tracker-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58E70EA41AD7438D0075E2C5 /* Build configuration list for PBXNativeTarget "iss-tracker-iosTests" */;
+			buildPhases = (
+				58E70E931AD7438D0075E2C5 /* Sources */,
+				58E70E941AD7438D0075E2C5 /* Frameworks */,
+				58E70E951AD7438D0075E2C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58E70E991AD7438D0075E2C5 /* PBXTargetDependency */,
+			);
+			name = "iss-tracker-iosTests";
+			productName = "iss-tracker-iosTests";
+			productReference = 58E70E971AD7438D0075E2C5 /* iss-tracker-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58E70E771AD7438D0075E2C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = jevinanderson;
+				TargetAttributes = {
+					58E70E7E1AD7438D0075E2C5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					58E70E961AD7438D0075E2C5 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 58E70E7E1AD7438D0075E2C5;
+					};
+				};
+			};
+			buildConfigurationList = 58E70E7A1AD7438D0075E2C5 /* Build configuration list for PBXProject "iss-tracker-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58E70E761AD7438D0075E2C5;
+			productRefGroup = 58E70E801AD7438D0075E2C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58E70E7E1AD7438D0075E2C5 /* iss-tracker-ios */,
+				58E70E961AD7438D0075E2C5 /* iss-tracker-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58E70E7D1AD7438D0075E2C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5857B5E71AD99A40006F4717 /* rocket2.png in Resources */,
+				586E78931AD7FEF20043632E /* international-space-station.png in Resources */,
+				586E78951AD7FEF20043632E /* space-station.png in Resources */,
+				589075521AFFF55500BEDC0A /* CameraIcon.png in Resources */,
+				586E78971AD7FEF20043632E /* iss-silhouette.png in Resources */,
+				58398C1D1B2B0C3B007367FA /* rocket3.png in Resources */,
+				58EA97D11ADEAA15009CA031 /* exhaust.png in Resources */,
+				5857B5E91AD99A40006F4717 /* spaceship.jpeg in Resources */,
+				58E70E8D1AD7438D0075E2C5 /* Main.storyboard in Resources */,
+				586E78911AD7FEF20043632E /* rocket.png in Resources */,
+				58E70E921AD7438D0075E2C5 /* LaunchScreen.xib in Resources */,
+				58E70E8F1AD7438D0075E2C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E70E951AD7438D0075E2C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5857B5E81AD99A40006F4717 /* rocket2.png in Resources */,
+				586E78921AD7FEF20043632E /* rocket.png in Resources */,
+				586E78961AD7FEF20043632E /* space-station.png in Resources */,
+				589075531AFFF55500BEDC0A /* CameraIcon.png in Resources */,
+				586E78941AD7FEF20043632E /* international-space-station.png in Resources */,
+				5857B5EA1AD99A40006F4717 /* spaceship.jpeg in Resources */,
+				58EA97D21ADEAA15009CA031 /* exhaust.png in Resources */,
+				586E78981AD7FEF20043632E /* iss-silhouette.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58E70E7B1AD7438D0075E2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E70E8A1AD7438D0075E2C5 /* ViewController.swift in Sources */,
+				58E70E881AD7438D0075E2C5 /* iss_tracker_ios.xcdatamodeld in Sources */,
+				58E70E851AD7438D0075E2C5 /* AppDelegate.swift in Sources */,
+				589075551AFFF81800BEDC0A /* ISSPhotoViewController.swift in Sources */,
+				5892885C1AF80AB3009F77FC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E70E931AD7438D0075E2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E70E9E1AD7438D0075E2C5 /* iss_tracker_iosTests.swift in Sources */,
+				5892885D1AF80AB3009F77FC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58E70E991AD7438D0075E2C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58E70E7E1AD7438D0075E2C5 /* iss-tracker-ios */;
+			targetProxy = 58E70E981AD7438D0075E2C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58E70E8B1AD7438D0075E2C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E70E8C1AD7438D0075E2C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58E70E901AD7438D0075E2C5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E70E911AD7438D0075E2C5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58E70E9F1AD7438D0075E2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58E70EA01AD7438D0075E2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58E70EA21AD7438D0075E2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iss-tracker-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		58E70EA31AD7438D0075E2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iss-tracker-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		58E70EA51AD7438D0075E2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iss-tracker-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iss-tracker-ios.app/iss-tracker-ios";
+			};
+			name = Debug;
+		};
+		58E70EA61AD7438D0075E2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iss-tracker-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iss-tracker-ios.app/iss-tracker-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58E70E7A1AD7438D0075E2C5 /* Build configuration list for PBXProject "iss-tracker-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E70E9F1AD7438D0075E2C5 /* Debug */,
+				58E70EA01AD7438D0075E2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58E70EA11AD7438D0075E2C5 /* Build configuration list for PBXNativeTarget "iss-tracker-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E70EA21AD7438D0075E2C5 /* Debug */,
+				58E70EA31AD7438D0075E2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58E70EA41AD7438D0075E2C5 /* Build configuration list for PBXNativeTarget "iss-tracker-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E70EA51AD7438D0075E2C5 /* Debug */,
+				58E70EA61AD7438D0075E2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58E70E861AD7438D0075E2C5 /* iss_tracker_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58E70E871AD7438D0075E2C5 /* iss_tracker_ios.xcdatamodel */,
+			);
+			currentVersion = 58E70E871AD7438D0075E2C5 /* iss_tracker_ios.xcdatamodel */;
+			path = iss_tracker_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58E70E771AD7438D0075E2C5 /* Project object */;
+}
